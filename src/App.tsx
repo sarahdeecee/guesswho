@@ -1,6 +1,6 @@
 import './App.css';
 import { TopNav } from './TopNav';
-import { Board } from './Board';
+import { Board } from './components/Board';
 import { itemData } from './testdata/items';
 
 function App() {

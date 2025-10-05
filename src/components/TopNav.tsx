@@ -1,4 +1,3 @@
-import './App.css';
 import { AppBar, Button, Toolbar, Typography } from '@mui/material';
 
 export function TopNav() {

@@ -1,5 +1,4 @@
 import { Box, ImageList, ImageListItem } from '@mui/material';
-import './App.css';
 import { Character } from '../types';
 
 export function Board(props: any) {

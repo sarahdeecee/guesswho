@@ -1,5 +1,5 @@
 import './App.css';
-import { TopNav } from './TopNav';
+import { TopNav } from './components/TopNav';
 import { Board } from './components/Board';
 import { itemData } from './testdata/items';
 

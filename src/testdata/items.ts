@@ -1,6 +1,6 @@
-import { Character } from "../types";
+import { Character, CharacterPiece } from "../types";
 
-export const itemData: Character[] = [
+export const characters: Character[] = [
   {
     name: 'Baizhu',
     country: 'Liyue',
@@ -314,3 +314,5 @@ export const itemData: Character[] = [
     img: 'flins.png'
   },
 ]
+
+export const itemData: CharacterPiece[] = characters.map(character => ({...character, selected: false}))

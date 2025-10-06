@@ -1,4 +1,4 @@
-export type Country = "Mondstadt" | "Liyue" | "Inazuma" | "Sumeru" | "Fontaine" | "Natlan" | "Nod-Krai" | "Other";
+export type Country = "Mondstadt" | "Liyue" | "Inazuma" | "Sumeru" | "Fontaine" | "Natlan" | "Nod-Krai" | "Snezhnaya" | "Other";
 export type Element = "anemo" | "cryo" | "hydro" | "pyro" | "geo" | "electro" | "dendro";
 export type Weapon = "sword" | "claymore" | "polearm" | "catalyst" | "bow"
 export type Quality = 4 | 5

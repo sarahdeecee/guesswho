@@ -12,3 +12,7 @@ export interface Character {
   img: string,
 }
 
+export interface CharacterPiece extends Character {
+  selected: boolean
+}
+
